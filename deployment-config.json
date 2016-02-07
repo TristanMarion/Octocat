@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "192.168.0.29",
+    "username": "tristancule",
+    "password": "*$poncote1998$*",
+    "port": 22,
+    "remotePath": "/media/USBHDD1/autres/Octocat/hamiti_m",
+    "uploadOnSave": false
+}
