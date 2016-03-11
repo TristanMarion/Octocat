@@ -5,7 +5,7 @@
 ** Login   <marion_t@etna-alternance.net>
 **
 ** Started on  Mon Jan 18 11:49:17 2016 MARION Tristan
-** Last update Mon Jan 18 11:49:20 2016 MARION Tristan
+** Last update Fri Mar 11 23:08:43 2016 MARION Tristan
 */
 
 #include "fonctions.h"
@@ -54,7 +54,7 @@ void    affichage_mode(char *mode, char carte[20][20])
     clear();
     my_putstr("\n\n\t\t\x1b[31m¯·.¸¸.·¯·.¸¸.·¯     \x1b[1mMode ");
     my_putstr(mode);
-    my_putstr("\x1b[22m     ¯·.¸¸.·¯·.¸¸.·¯\x1b[0m\n\n");
+    my_putstr("\x1b[31m     ¯·.¸¸.·¯·.¸¸.·¯\x1b[0m\n\n");
     afficherCarte(carte);
 }
 
